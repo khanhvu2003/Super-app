@@ -8,7 +8,7 @@ const database = {
       id: "Attack Shark K75 Pro",
       name: "Attack Shark K75 Pro",
       image:
-        "https://img.lazcdn.com/g/p/a25313a936a7243c22066d7907579974.jpg_720x720q80.jpg",
+        "img/k75.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -184,7 +184,7 @@ const database = {
     {
       id: "Xinmeng M71",
       name: "Xinmeng M71",
-      image: "https://m.media-amazon.com/images/I/71Y-Dk23SLL.jpg",
+      image: "img/m71.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -202,7 +202,7 @@ const database = {
       id: "Xinmeng M75",
       name: "Xinmeng M75",
       image:
-        "https://file.hstatic.net/1000392339/file/m75-1_ce0473f3242041a8a2d1f73b8a1c93a2.jpg",
+        "img/m75.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -228,7 +228,7 @@ const database = {
       id: "Dark Alien R65",
       name: "Dark Alien R65",
       image:
-        "https://salt.tikicdn.com/ts/product/7a/74/41/d3587b4074f682f6e5223c723f73c683.jpg",
+        "img/r65.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -441,7 +441,7 @@ const database = {
       id: "Attack Shark X98",
       name: "Attack Shark X98",
       image:
-        "https://product.hstatic.net/200000491873/product/ban-phim-co-attack-shark-x98-3-modes-led-rgb-hoc-vien-gaming-gear-8_007828c467a44a679e0a0584b802a832.jpg",
+        "img/x98.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -514,7 +514,7 @@ const database = {
       id: "AULA F98",
       name: "AULA F98",
       image:
-        "https://file.hstatic.net/1000072060/file/aula-f98-pro-3-mode-1_8d8c903a42d64f0ea6b7a2d427d11fdf.jpg",
+        "img/f98.png",
       previewVideo:
         "https://drive.google.com/file/d/1H4TkVH1C2gjLOtQbVoVHw8p3nOFpD2t7/view?usp=drive_link",
       dealLink: "#",
@@ -538,7 +538,7 @@ const database = {
       id: "AULA F99 Pro",
       name: "AULA F99 Pro",
       image:
-        "https://ticotech.vn/wp-content/uploads/2024/04/ban-phim-co-aula-f99-white-grey-3-mode-hotswap-rgb-1.jpg",
+        "img/f99.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
@@ -556,7 +556,7 @@ const database = {
       id: "Dark Alien R83",
       name: "Dark Alien R83",
       image:
-        "https://salt.tikicdn.com/ts/product/09/a4/d3/4232810a08e6c4e0f5450e189de39f4d.jpg",
+        "img/R83 DARK ALIEN.png",
       previewVideo: "",
       dealLink: "#",
       appPC:
