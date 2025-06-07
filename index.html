@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>SuperApp Driver Center - Gaming V11.2 (Gemini AI)</title>
+    <meta name="description" content="Trung tâm tải Driver, Firmware và các hướng dẫn, giải pháp hỗ trợ kỹ thuật cho các sản phẩm gaming gear của SuperApp. Tìm kiếm driver cho bàn phím, chuột, tai nghe một cách nhanh chóng." />
+    <meta name="keywords" content="driver, gaming gear, SuperApp, Attack Shark, Xinmeng, AULA, hỗ trợ kỹ thuật, firmware" />
+    <meta name="author" content="SuperApp" />
+
+    <!-- Favicon (thay bằng link icon của bạn) -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&family=Russo+One&display=swap" rel="stylesheet" />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-dark-bg">
+    <!-- NÚT CHUYỂN ĐỔI GIAO DIỆN -->
+    <button id="theme-toggle-button" title="Chuyển đổi chế độ Sáng/Tối">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header class="header-bg py-4 shadow-2xl sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4 md:px-6">
+            <div class="logo-text">SuperApp</div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero-section" style="background-image: url('https://www.aorus.com/assets/img/fallback/wallpaper_fallback_201026.jpg');">
+        <div class="hero-content flex flex-col items-center">
+            <h1 class="hero-title">Gaming Gear Central</h1>
+            <p class="hero-subtitle">
+                Tất cả Driver, Firmware và Hướng dẫn bạn cần, ngay trong tầm tay.
+            </p>
+            <a href="#" class="btn btn-deal"><i class="fas fa-tags mr-2"></i> Săn Deal Cực Rẻ</a>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container mx-auto py-12 px-4 md:px-6">
+        <!-- SEARCH SECTION -->
+        <section id="search-section" class="mb-16 animated-border">
+            <div>
+                <h2 class="section-title">Tìm Kiếm Driver & Hỗ Trợ</h2>
+                <div class="flex justify-center">
+                    <input type="text" id="searchInput" class="search-input w-full md:w-3/4 lg:w-2/3 xl:w-1/2" placeholder="Nhập tên sản phẩm để tìm kiếm..." />
+                </div>
+            </div>
+        </section>
+
+        <!-- GLOBAL AI ASSISTANT SECTION -->
+        <section id="global-ai-section" class="mb-16 animated-border">
+            <div>
+                <h2 class="section-title">Trợ Lý Hỗ Trợ Kỹ Thuật</h2>
+                <div class="flex flex-col gap-4">
+                    <textarea id="global-ai-input" class="search-input w-full" placeholder="Vui lòng mô tả vấn đề hoặc câu hỏi của bạn về sản phẩm..." rows="3"></textarea>
+                    <button id="global-ask-ai-button" class="btn btn-primary self-center"><i class="fas fa-robot mr-2"></i>Gửi Yêu Cầu Cho AI</button>
+                    <div id="global-ai-response">Phản hồi từ AI sẽ xuất hiện tại đây...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT SECTIONS -->
+        <section id="keyboard-products" class="mb-16">
+            <h2 class="section-title">Driver Bàn Phím</h2>
+            <div class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10"></div>
+        </section>
+
+        <section id="mouse-products" class="mb-16">
+            <h2 class="section-title">Driver Chuột</h2>
+            <div class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10"></div>
+        </section>
+
+        <section id="headset-products" class="mb-16">
+            <h2 class="section-title">Driver Tai Nghe</h2>
+            <div class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10"></div>
+        </section>
+
+        <!-- SERVICE COMMITMENTS -->
+        <section id="service-commitments" class="mb-16 animated-border">
+             <div>
+                <h2 class="section-title">Cam Kết Dịch Vụ</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="commitment-item">
+                        <div class="commitment-icon"><i class="fas fa-shield-alt"></i></div>
+                        <p class="commitment-text">Bảo Hành 12 Tháng</p>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon"><i class="fas fa-sync-alt"></i></div>
+                        <p class="commitment-text">Đổi Trả Miễn Phí</p>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-icon"><i class="fas fa-headset"></i></div>
+                        <p class="commitment-text">Hỗ Trợ Kỹ Thuật 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SOCIAL MEDIA -->
+        <section id="social-media" class="mb-16 animated-border">
+            <div>
+                <h2 class="section-title">Kết Nối Với SuperApp</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
+                    <div class="social-channel-item">
+                        <a href="#" target="_blank" title="TikTok"><i class="fab fa-tiktok social-icon-fa"></i><span class="channel-name">TikTok</span></a>
+                    </div>
+                    <div class="social-channel-item">
+                        <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook social-icon-fa"></i><span class="channel-name">Facebook</span></a>
+                    </div>
+                    <div class="social-channel-item">
+                        <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram social-icon-fa"></i><span class="channel-name">Instagram</span></a>
+                    </div>
+                    <div class="social-channel-item">
+                        <a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube social-icon-fa"></i><span class="channel-name">Youtube</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FLOATING CONTACT BUTTON & POPUP -->
+        <div id="contact-float-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/2048px-Icon_of_Zalo.svg.png" alt="Zalo Icon" />
+        </div>
+        <div id="contact-popup" class="contact-popup">
+            <h4 class="font-bold text-lg mb-2 text-[var(--primary-color)]">Cần Hỗ Trợ Kỹ Thuật?</h4>
+            <p class="text-sm mb-3">Nếu gặp khó khăn trong quá trình cài đặt, hãy liên hệ ngay với chúng tôi:</p>
+            <a href="#" class="block mb-2 text-[var(--accent-color)] font-bold"><i class="fab fa-rocketchat mr-2"></i> Chat Zalo CSKH</a>
+            <p class="text-sm"><strong>Hotline:</strong> <a href="tel:0984129321">0984.129.321</a></p>
+        </div>
+
+        <!-- MODAL -->
+        <div id="productDetailModal" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center p-2 sm:p-4 hidden z-[100]">
+            <div class="modal-bg p-4 sm:p-6 rounded-2xl w-full max-w-4xl lg:max-w-6xl max-h-[95vh] overflow-y-auto relative" style="scrollbar-width: thin; scrollbar-color: var(--primary-color) var(--dark-bg);">
+                <!-- SỬA LỖI: Gỡ bỏ onclick và thêm ID -->
+                <button id="modal-close-button" class="absolute top-3 right-3 text-3xl text-[var(--primary-color)] hover:text-[var(--secondary-color)] transition-colors duration-300 z-10">
+                    <i class="fas fa-times-circle"></i>
+                </button>
+                <div id="modalContent" class="space-y-6"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER LINKS -->
+    <section id="new-footer-links" class="text-sm">
+        <div class="container mx-auto px-4 md:px-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h4>Công Ty</h4>
+                <ul>
+                    <li><a href="#">Về SuperApp</a></li>
+                    <li><a href="#">Tuyển Dụng</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Hỗ Trợ</h4>
+                <ul>
+                    <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                    <li><a href="#">Chính Sách Bảo Hành</a></li>
+                    <li><a href="#">Chính Sách Vận Chuyển</a></li>
+                </ul>
+            </div>
+            <div class="col-span-2 sm:col-span-2">
+                <h4>Cửa Hàng Liên Kết</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
+                    <ul>
+                        <li><details><summary>Shopee Mall</summary><ul class="mt-2 pl-4 space-y-1"><li><a href="#">Link Shop 1</a></li><li><a href="#">Link Shop 2</a></li></ul></details></li>
+                        <li><details><summary>Lazada Mall</summary><ul class="mt-2 pl-4 space-y-1"><li><a href="#">Link Shop 1</a></li></ul></details></li>
+                    </ul>
+                    <ul>
+                        <li><details><summary>TikTok Shop</summary><ul class="mt-2 pl-4 space-y-1"><li><a href="#">Link Shop 1</a></li></ul></details></li>
+                        <li><details><summary>Đối Tác Khác</summary><ul class="mt-2 pl-4 space-y-1"><li><a href="#">Link Đối Tác 1</a></li></ul></details></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-bg py-5 text-center">
+        <p class="font-logo text-sm">
+            &copy; <span id="currentYear"></span> SuperApp. All Rights Reserved. Designed for Gamers.
+        </p>
+    </footer>
+
+    <!-- Your Custom JavaScript files -->
+    <!-- Tải dữ liệu trước, sau đó là các module xử lý -->
+    <script src="assets/js/database.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
