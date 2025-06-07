@@ -2,53 +2,51 @@
 // Việc tách riêng tệp này giúp quản lý và bảo mật key tốt hơn.
 
 /**
- * Gửi yêu cầu đến Gemini AI và trả về phản hồi.
- * @param {string} userQuestion - Câu hỏi của người dùng.
- * @returns {Promise<string>} - Phản hồi từ AI.
- */
+ * Gửi yêu cầu đến Gemini AI và trả về phản hồi.
+ * @param {string} userQuestion - Câu hỏi của người dùng.
+ * @returns {Promise<string>} - Phản hồi từ AI.
+ */
 async function askGeminiAi(userQuestion) {
-    // !!! CẢNH BÁO BẢO MẬT QUAN TRỌNG !!!
-    // Để trống API Key (`const apiKey = ""`) chỉ hoạt động trong môi trường Canvas.
-    // Khi bạn chạy trên máy tính cá nhân (localhost) hoặc server riêng,
-    // BẠN BẮT BUỘC PHẢI THAY THẾ BẰNG API KEY THẬT CỦA BẠN từ Google AI Studio.
-    // Nếu không, chức năng này sẽ luôn báo lỗi.
-    const apiKey = "AIzaSyC6-809ZG8gU9sv0MkRM1Xz8CsiPZomTDA"; // <-- THAY THẾ BẰNG API KEY CỦA BẠN VÀO ĐÂY
+  // !!! CẢNH BÁO BẢO MẬT QUAN TRỌNG !!!
+  // Để trống API Key (`const apiKey = ""`) chỉ hoạt động trong môi trường Canvas.
+  // Khi bạn chạy trên máy tính cá nhân (localhost) hoặc server riêng,
+  // BẠN BẮT BUỘC PHẢI THAY THẾ BẰNG API KEY THẬT CỦA BẠN từ Google AI Studio.
+  // Nếu không, chức năng này sẽ luôn báo lỗi.
+  const apiKey = "AIzaSyC6-809ZG8gU9sv0MkRM1Xz8CsiPZomTDA"; // <-- THAY THẾ BẰNG API KEY CỦA BẠN VÀO ĐÂY
 
-    let allProductsContext = "";
-    for (const category in database) {
-        if (database[category].length > 0) {
-            allProductsContext += `\n\n----- DANH MỤC: ${category.toUpperCase()} -----\n`;
-            database[category].forEach(product => {
-                // Cung cấp ngữ cảnh rõ ràng hơn cho AI
-                allProductsContext += `\n### SẢN PHẨM: ${product.name} (ID: ${product.id})\n`;
-                if (product.faqs && product.faqs.length > 0) {
-                    product.faqs.forEach(faq => {
-                        allProductsContext += `- Câu hỏi thường gặp: ${faq.q}\n  - Giải đáp chi tiết: ${faq.a}\n`;
-                    });
-                }
-                // Thêm thông tin video vào ngữ cảnh
-                if (product.videos && product.videos.length > 0) {
-                    allProductsContext += `- Videos Hướng Dẫn Có Sẵn:\n`;
-                    product.videos.forEach(video => {
-                        allProductsContext += `  - Tiêu đề video: "${video.title}", Link: "${video.url}"\n`;
-                    });
-                }
-                // Thêm thông tin ứng dụng vào ngữ cảnh
-                if (product.appPC || product.appWeb) {
-                    allProductsContext += `- Link Ứng Dụng Có Sẵn:\n`;
-                    if (product.appPC) {
-                        allProductsContext += `  - Link App PC: "${product.appPC}"\n`;
-                    }
-                    if (product.appWeb) {
-                        allProductsContext += `  - Link App Web: "${product.appWeb}"\n`;
-                    }
-                }
-            });
-        }
-    }
+  let allProductsContext = "";
+  for (const category in database) {
+    if (database[category].length > 0) {
+      allProductsContext += `\n\n----- DANH MỤC: ${category.toUpperCase()} -----\n`;
+      database[category].forEach((product) => {
+        // Cung cấp ngữ cảnh rõ ràng hơn cho AI
+        allProductsContext += `\n### SẢN PHẨM: ${product.name} (ID: ${product.id})\n`;
+        if (product.faqs && product.faqs.length > 0) {
+          product.faqs.forEach((faq) => {
+            allProductsContext += `- Câu hỏi thường gặp: ${faq.q}\n  - Giải đáp chi tiết: ${faq.a}\n`;
+          });
+        } // Thêm thông tin video vào ngữ cảnh
+        if (product.videos && product.videos.length > 0) {
+          allProductsContext += `- Videos Hướng Dẫn Có Sẵn:\n`;
+          product.videos.forEach((video) => {
+            allProductsContext += `  - Tiêu đề video: "${video.title}", Link: "${video.url}"\n`;
+          });
+        }
+        // Thêm thông tin ứng dụng vào ngữ cảnh
+        if (product.appPC || product.appWeb) {
+          allProductsContext += `- Link Ứng Dụng Có Sẵn:\n`;
+          if (product.appPC) {
+            allProductsContext += `  - Link App PC: "${product.appPC}"\n`;
+          }
+          if (product.appWeb) {
+            allProductsContext += `  - Link App Web: "${product.appWeb}"\n`;
+          }
+        }
+      });
+    }
+  } // --- PROMPT NÂNG CẤP - V15.0 (Xử lý xuống dòng & siết chặt đầu ra) ---
 
-    // --- PROMPT NÂNG CẤP - V15.0 (Xử lý xuống dòng & siết chặt đầu ra) ---
-    const prompt = `Bạn là một Trợ lý Kỹ thuật AI. Nhiệm vụ của bạn là nhận câu hỏi và KHO DỮ LIỆU, sau đó trả về MỘT KHỐI HTML DUY NHẤT, SẠCH SẼ và GỌN GÀNG.
+  const prompt = `Bạn là một Trợ lý Kỹ thuật AI. Nhiệm vụ của bạn là nhận câu hỏi và KHO DỮ LIỆU, sau đó trả về MỘT KHỐI HTML DUY NHẤT, SẠCH SẼ và GỌN GÀNG.
 
 --- KHO DỮ LIỆU KIẾN THỨC ---
 ${allProductsContext}
@@ -72,46 +70,46 @@ ${allProductsContext}
 
 Bây giờ, hãy tạo câu trả lời HTML cuối cùng.`;
 
-    const payload = {
-        contents: [{ role: "user", parts: [{ text: prompt }] }]
-    };
+  const payload = {
+    contents: [{ role: "user", parts: [{ text: prompt }] }],
+  };
 
-    try {
-        if (!apiKey) {
-             throw new Error("API Key is missing. Please add your API key in assets/js/api.js");
-        }
-        // SỬA LỖI: Cập nhật model API để khắc phục lỗi 404
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-        });
+  try {
+    if (!apiKey) {
+      throw new Error(
+        "API Key is missing. Please add your API key in assets/js/api.js"
+      );
+    }
+    // SỬA LỖI: Cập nhật model API để khắc phục lỗi 404
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
+    const response = await fetch(apiUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
 
-        if (!response.ok) {
-            const errorText = await response.text();
-            console.error("API Error:", response.status, errorText);
-            throw new Error(`API call failed with status: ${response.status}`);
-        }
-        
-        const result = await response.json();
-        
-        if (result.candidates && result.candidates[0]?.content?.parts?.[0]) {
-            // Làm sạch đầu ra để đảm bảo không có ```html
-            let rawText = result.candidates[0].content.parts[0].text;
-            if (rawText.startsWith("```html")) {
-                rawText = rawText.substring(7);
-            }
-            if (rawText.endsWith("```")) {
-                rawText = rawText.substring(0, rawText.length - 3);
-            }
-            return rawText.trim();
-        } else {
-            console.warn("API response was valid, but contained no answer:", result);
-            return "<p>Tôi không thể đưa ra câu trả lời lúc này. Để được hỗ trợ nhanh nhất, bạn vui lòng liên hệ trực tiếp với đội ngũ kỹ thuật của SuperApp qua Zalo hoặc Hotline: 0984.129.321.</p>";
-        }
-    } catch (error) {
-        console.error('Gemini AI call failed:', error);
-        return `<p>Đã xảy ra lỗi khi kết nối với trợ lý AI. Chi tiết lỗi: ${error.message}. Vui lòng thử lại sau hoặc liên hệ Hotline: 0984.129.321.</p>`;
-    }
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error("API Error:", response.status, errorText);
+      throw new Error(`API call failed with status: ${response.status}`);
+    }
+    const result = await response.json();
+    if (result.candidates && result.candidates[0]?.content?.parts?.[0]) {
+      // Làm sạch đầu ra để đảm bảo không có ```html
+      let rawText = result.candidates[0].content.parts[0].text;
+      if (rawText.startsWith("```html")) {
+        rawText = rawText.substring(7);
+      }
+      if (rawText.endsWith("```")) {
+        rawText = rawText.substring(0, rawText.length - 3);
+      }
+      return rawText.trim();
+    } else {
+      console.warn("API response was valid, but contained no answer:", result);
+      return "<p>Tôi không thể đưa ra câu trả lời lúc này. Để được hỗ trợ nhanh nhất, bạn vui lòng liên hệ trực tiếp với đội ngũ kỹ thuật của SuperApp qua Zalo hoặc Hotline: 0984.129.321.</p>";
+    }
+  } catch (error) {
+    console.error("Gemini AI call failed:", error);
+    return `<p>Đã xảy ra lỗi khi kết nối với trợ lý AI. Chi tiết lỗi: ${error.message}. Vui lòng thử lại sau hoặc liên hệ Hotline: 0984.129.321.</p>`;
+  }
 }
