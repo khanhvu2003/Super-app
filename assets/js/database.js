@@ -1551,12 +1551,7 @@ const database = {
         "https://shopee.vn/Tai-Nghe-Kh%C3%B4ng-D%C3%A2y-Ch%E1%BB%A5p-Tai-Bluetooth-Attack-Shark-L80-Super-Bass-%C3%82m-Thanh-V%C3%B2m-C%C3%B3-Mic-Ch%C6%A1i-Game-i.12208293.27407075172?sp_atk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e&xptdk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e",
       appPC: "",
       appWeb: "",
-      videos: [
-        {
-          url: "https://drive.google.com/file/d/1MDjbJy3xlJWengdZGi51KvisFllq9YSp/view?usp=drive_link",
-          title: "Cài App Attack Shark L90",
-        },
-      ],
+      videos: [],
       faqs: [
         {
           q: "Bật/Tắt nguồn tai nghe?",
