@@ -3,6 +3,46 @@
 // ...existing code...
 
 // ...existing code...
+document.addEventListener("DOMContentLoaded", () => {
+    // ...existing code...
+
+    const filterButtons = document.querySelectorAll('.category-filter-btn');
+    const sectionMap = {
+        keyboards: "keyboard-products",
+        mice: "mouse-products",
+        headsets: "headset-products"
+    };
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const cat = btn.dataset.category;
+
+            // Ẩn tất cả section sản phẩm
+            Object.values(sectionMap).forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = "none";
+            });
+
+            if (cat === "all") {
+                // Hiện tất cả
+                Object.values(sectionMap).forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) el.style.display = "block";
+                });
+            } else if (cat === "blog") {
+                // Cuộn tới blog
+                document.getElementById("blog-section")?.scrollIntoView({ behavior: "smooth" });
+            } else if (sectionMap[cat]) {
+                // Hiện đúng section
+                const el = document.getElementById(sectionMap[cat]);
+                if (el) el.style.display = "block";
+            }
+        });
+    });
+});
+
 
 (function() {
     const themeToggleButton = document.getElementById("theme-toggle-button");

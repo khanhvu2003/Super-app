@@ -805,6 +805,213 @@ const database = {
         },
       ],
     },
+    {
+      id: "Free world M87",
+      name: "Free world M87",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lme73lbh8q1rc9.webp",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwg-m85ygcx8tmkn0e.16000081743752817.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-Kh%C3%B4ng-D%C3%A2y-Bluetooth-PIN-S%E1%BA%A1c-M87-LED-gi%E1%BA%A3-c%C6%A1-D%C3%B9ng-Cho-M%C3%A1y-T%C3%ADnh-Laptop-%C4%90i%E1%BB%87n-Tho%E1%BA%A1i-i.12208293.16799057109?sp_atk=04d849ab-80f8-4d41-8352-4f717a217645&xptdk=04d849ab-80f8-4d41-8352-4f717a217645",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/15JaEVIQWAhh31Ly_WdJ3YTJrLGhJP8m6/view?usp=drive_link",
+          title: "Cách reset bàn phím M87",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Sản phẩm gặp vấn đề kết nối USB 2.4G hoặc Bluetooth, phải làm sao?",
+          a: "Thao tác kết nối lại USB:\n1. Rút đầu thu USB 2.4G ra khỏi máy tính.\n2. Nhấn giữ tổ hợp phím `ESC + Q` trong 5 giây.\n3. Cắm lại đầu thu vào máy tính để kết nối lại. \n\nThao tác kết nối lại Bluetooth:\n1. Gạt công tắc bàn phím sang chế độ Bluetooth.\n2. Nhấn giữ `ESC + Q` trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên thiết bị của bạn và tìm lại bàn phím.",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
+    {
+      id: "Free world M96",
+      name: "Free world M96",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu0e14cc8tgff0.webp",
+      previewVideo:
+        "https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw3-m85y0he56smmd2.16000081743752074.mp4",
+      dealLink:
+        "https://shopee.vn/B%E1%BB%99-B%C3%A0n-Ph%C3%ADm-Kh%C3%B4ng-D%C3%A2y-Bluetooth-M96-LED-7-M%C3%A0u-C%C3%B3-M%C3%A0n-H%C3%ACnh-2-Mode-Ph%C3%ADm-PBT-Cao-C%E1%BA%A5p-G%C3%B5-%C3%8Am-Ch%E1%BB%91ng-%E1%BB%92n-Cho-Win-Mac-OS-i.12208293.25173777909?sp_atk=27429a0f-a126-49a5-961c-df540616e2ad&xptdk=27429a0f-a126-49a5-961c-df540616e2ad",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/15JaEVIQWAhh31Ly_WdJ3YTJrLGhJP8m6/view?usp=drive_link",
+          title: "Cách reset bàn phím tương tự m87",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Sản phẩm gặp vấn đề kết nối USB 2.4G hoặc Bluetooth, phải làm sao?",
+          a: "Thao tác kết nối lại USB:\n1. Rút đầu thu USB 2.4G ra khỏi máy tính.\n2. Nhấn giữ tổ hợp phím `ESC + Q` trong 5 giây.\n3. Cắm lại đầu thu vào máy tính để kết nối lại. \n\nThao tác kết nối lại Bluetooth:\n1. Gạt công tắc bàn phím sang chế độ Bluetooth.\n2. Nhấn giữ `ESC + Q` trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên thiết bị của bạn và tìm lại bàn phím.",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
+
+    {
+      id: "Free world M75",
+      name: "Free world M75",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m8d2k8lgfg4u41.webp",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw1-m8g2pm5kylokb4.16000101744365321.mp4",
+      dealLink:
+        "https://shopee.vn/B%E1%BB%99-B%C3%A0n-Ph%C3%ADm-V%C3%A0-Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Bluetooth-M75-LED-C%C3%B3-M%C3%A0n-H%C3%ACnh-Pin-S%E1%BA%A1c-Keycap-PBT-Cho-Pc-Laptop-%C4%90T-i.12208293.26532687449?sp_atk=21e3d64f-bdb7-45cc-b893-f1fc44a046f7&xptdk=21e3d64f-bdb7-45cc-b893-f1fc44a046f7",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/15JaEVIQWAhh31Ly_WdJ3YTJrLGhJP8m6/view?usp=drive_link",
+          title: "Cách reset bàn phím tương tự m87",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Sản phẩm gặp vấn đề kết nối USB 2.4G hoặc Bluetooth, phải làm sao?",
+          a: "Thao tác kết nối lại USB:\n1. Rút đầu thu USB 2.4G ra khỏi máy tính.\n2. Nhấn giữ tổ hợp phím `ESC + Q` trong 5 giây.\n3. Cắm lại đầu thu vào máy tính để kết nối lại. \n\nThao tác kết nối lại Bluetooth:\n1. Gạt công tắc bàn phím sang chế độ Bluetooth.\n2. Nhấn giữ `ESC + Q` trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên thiết bị của bạn và tìm lại bàn phím.",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
+
+    {
+      id: "Free world M68",
+      name: "Free world M68",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m21vuy2rbezf32.webp",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwc-m2m4tcct8jay30.16005581738514801.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%B4%CC%A3-Ba%CC%80n-Phi%CC%81m-Va%CC%80-Chu%C3%B4%CC%A3t-Bluetooth-FreeWolf-M68-LED-Pro-Go%CC%83-Si%C3%AAu-%C3%8Am-Pin-Sa%CC%A3c-Keycap-PBT-Cho-Pc-Lap-i.12208293.28866215687?sp_atk=04c3a524-9722-4ac0-a8f7-247de0bb9d33&xptdk=04c3a524-9722-4ac0-a8f7-247de0bb9d33",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/15JaEVIQWAhh31Ly_WdJ3YTJrLGhJP8m6/view?usp=drive_link",
+          title: "Cách reset bàn phím tương tự m87",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Cách kết nối Bluetooth cho bàn phím?",
+          a: "1. Gạt công tắc qua chế độ Bluetooth.\n2. Bàn phím có 2 chế độ kết nối với 3 thiết bị khác nhau.\n3. Ấn tổ hợp `FN + E`, `FN + R`, `FN + T` để kết nối với 3 thiết bị khác nhau.\n4. Ấn tổ hợp `ESC + Q` tầm 3s để reset thiết bị cũ.\n5. Ấn tổ hợp `FN + Dấu Cách` 5 giây để reset bàn phím.",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
+
+    {
+      id: "Free world K8",
+      name: "Free world K8",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnr17r8m9abedb.webp",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6ke16-lnr232wfsdm500.16000081699266098.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Kh%C3%B4ng-D%C3%A2y-M%C3%A1y-T%C3%ADnh-K8BT-Bluetooth-5.0-Hotswap-Red-Switch-LED-Gaming-G%C3%B5-%C3%8Am-L%C3%B3t-Foam-i.12208293.25100267594?sp_atk=e497836e-4e5b-45e2-91b5-69c7a55c2454&xptdk=e497836e-4e5b-45e2-91b5-69c7a55c2454",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1ldKF6afOCLH9gc_HsextdtoSaNF0_RO2/view?usp=drive_link",
+          title: "Cách reset bàn phím Free world K8",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Cách kết nối Bluetooth cho bàn phím?",
+          a:
+            "1. Gạt công tắc qua chế độ Bluetooth.\n" +
+            "2. Ấn giữ tổ hợp phím để chọn kênh kết nối (ấn giữ tổ hợp 5s để tìm Bluetooth):\n" +
+            "   - `FN + Q`\n" +
+            "   - `FN + W`\n" +
+            "   - `FN + E`\n" +
+            "3. Sau đó kết nối với thiết bị 'K8BT 5.0' và sử dụng.\n" +
+            "   Ấn giữ tổ hợp 5s cũng để reset thiết bị.",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
+
+    {
+      id: "Free world K68",
+      name: "Free world K68",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvv66wy32l0b7f.webp",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110107/mms/sg_24ac28b8-1475-41a3-9227-78557fd79907_000288.16004101726447280.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Bluetooth-Kh%C3%B4ng-D%C3%A2y-K68BT-Tr%E1%BB%A5c-C%C6%A1-Red-Switch-G%C3%B5-C%E1%BB%B1c-%C4%90%C3%A3-C%C3%B3-Hotswap-K%E1%BA%BFt-N%E1%BB%91i-M%C3%A1y-T%C3%ADnh-%C4%90i%E1%BB%87n-Tho%E1%BA%A1i-Tablet-i.12208293.20259729410?sp_atk=dbce8813-a956-4ef2-a723-657e7d1c9fe8&xptdk=dbce8813-a956-4ef2-a723-657e7d1c9fe8",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1oFXMILutFscnM-4tGVxNpuLSudkAH0Td/view?usp=drive_link",
+          title: "Cách reset bàn phím Free world K68",
+        },
+      ],
+      faqs: [
+        {
+          q: "Lưu ý ",
+          a: "Sản phẩm không hỗ trợ phần mềm, chỉ có thể sử dụng các phím tắt cơ bản.",
+        },
+        {
+          q: "Cách kết nối Bluetooth cho bàn phím?",
+          a: "Ấn giữ `FN + W` hoặc `FN + E`.",
+        },
+        {
+          q: "Cách kết nối qua USB 2.4Ghz và Type C?",
+          a: "Ấn giữ `FN + Q` rồi cắm cổng USB hoặc cổng Type C vào PC. \n *Chú ý: Lắp pin và bật công tắc trước!",
+        },
+        {
+          q: "làm sao để chuyển đổi giữa các chế độ LED?",
+          a: "Sử dụng tổ hợp phím `FN + \\` để chuyển đổi giữa các hiệu ứng LED.",
+        },
+      ],
+    },
   ],
   mice: [
     {
@@ -855,7 +1062,7 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm FREE WOLF X7",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G.\n2. Lật chuột lên và nhấn giữ nút RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
           q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
@@ -892,7 +1099,7 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm FREE WOLF X7",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
           q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
@@ -933,7 +1140,7 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm Attack Shark X11",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
           q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
@@ -974,7 +1181,7 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm Attack Shark X6",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
           q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
@@ -1006,6 +1213,364 @@ const database = {
       ],
       faqs: [],
     },
+    {
+      id: "FREE WOLF A6",
+      name: "FREE WOLF A6",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m9b4e14kli8702.webp",
+      previewVideo:
+        "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwh-m9l1t157v2o4bb.16000081746845709.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-FreeWolf-A6-C%E1%BA%A3m-Bi%E1%BA%BFn-PAW3311-24000-DPI-Si%C3%AAu-Nh%E1%BA%B9-59g-Switch-Huano-Pin-S%E1%BA%A1c-i.12208293.26135881438?sp_atk=a842eff9-0d0f-422d-b17b-07d519885ef7&xptdk=a842eff9-0d0f-422d-b17b-07d519885ef7",
+      appPC:
+        "https://drive.google.com/file/d/10GP8v7SmDBJt6MAfq3YiQkgOYgD8f1cm/view?usp=drive_link",
+      appWeb: "",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm FREE WOLF A6",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark R5",
+      name: "Attack Shark R5",
+      image:
+        "https://attackshark.com/cdn/shop/files/1_6ff4d1aa-4583-48d9-ba91-81b4ad706e42.png?crop=center&height=400&v=1749280949&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw5-m7unue9kshqeab.16000081743069093.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-R5-Ultra-S%E1%BB%A3i-Carbon-PAW3950MAX-DPI-42.000-8000Hz-i.12208293.26380684555?sp_atk=3589fbe4-2755-4dcc-82de-f41d6ecc09b1&xptdk=3589fbe4-2755-4dcc-82de-f41d6ecc09b1",
+      appPC: "",
+      appWeb: "https://www.xvalleyinno.top/Test/#/project/items",
+      videos: [],
+      faqs: [
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark R5",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+      ],
+    },
+    {
+      id: "ATTACK SHARK X1",
+      name: "ATTACK SHARK X1",
+      image:
+        "https://attackshark.com/cdn/shop/files/1_67c03d8b-c585-4ce6-93af-311b1f1a934c.jpg?crop=center&height=400&v=1746769902&width=400",
+      previewVideo:
+        "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw4-m80bma9c27oucf.16000081743411749.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Gaming-Attack-Shark-X1-PAW3395-Pro-40.000DPI-Dock-S%E1%BA%A1c-LED-RGB-i.12208293.29580115737?sp_atk=03edf011-3026-4385-ad5c-bf2860abdd40&xptdk=03edf011-3026-4385-ad5c-bf2860abdd40",
+      appPC:
+        "https://drive.google.com/file/d/10GP8v7SmDBJt6MAfq3YiQkgOYgD8f1cm/view?usp=drive_link",
+      appWeb: "",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm ATTACK SHARK X1",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark R2",
+      name: "Attack Shark R2",
+      image:
+        "https://attackshark.com/cdn/shop/files/fc43558c9b76e2b6d137b61b0538f3cb.jpg?crop=center&height=400&v=1740735916&width=400",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwa-lyvm7fxopefh1e.16003251730227227.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-R2-Magie-Si%C3%AAu-Chip-PAW3950-MAX-Th%E1%BA%BF-H%E1%BB%87-M%E1%BB%9Bi-Polling-Rate-8K-i.12208293.28657694837?sp_atk=2ded9e60-dcc4-4c13-be8f-6ef95bc8e632&xptdk=2ded9e60-dcc4-4c13-be8f-6ef95bc8e632",
+      appPC:
+        "https://drive.google.com/file/d/1byeY_whh3p68OMLAgV8xygpgtRyvKKAY/view?usp=drive_link",
+      appWeb: "https://iotdriver.qmk.top/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1O0Ti_G8nJKRvf6ZSuY09MqEU43n9M791/view?usp=drive_link",
+          title: "Hướng dẫn cài đặt Attack Shark R2",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark R2",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark R3",
+      name: "Attack Shark R3",
+      image:
+        "https://attackshark.com/cdn/shop/files/7_e7020d5a-14d8-4f73-b1b3-3bf90a565766.jpg?crop=center&height=400&v=1737168023&width=400",
+      previewVideo:
+        "https://down-tx-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6ke14-lv30ckopge0p5f.16003251722336715.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Bluetooth-Attack-Shark-R3-H%E1%BB%A3p-Kim-Magie-Polling-Rate-8K-Kh%C3%B4ng-D%C3%A2y-Si%C3%AAu-Chip-PAW3395-26000-DPI-i.12208293.24779419228?sp_atk=30648100-5921-4b49-90e2-8f77929c9d41&xptdk=30648100-5921-4b49-90e2-8f77929c9d41",
+      appPC:
+        "https://drive.google.com/file/d/1byeY_whh3p68OMLAgV8xygpgtRyvKKAY/view?usp=drive_link",
+      appWeb: "https://iotdriver.qmk.top/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1O0Ti_G8nJKRvf6ZSuY09MqEU43n9M791/view?usp=drive_link",
+          title: "Hướng dẫn cài đặt App làm tương tự Attack Shark R2",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark R3",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+    {
+      id: "Attack Shark R6",
+      name: "Attack Shark R6",
+      image:
+        "https://attackshark.com/cdn/shop/files/d92e076f69cb1a6f81c9bab8cd8f57a2_7acc51df-a0b6-4af5-b9e3-0f73e82b0dd0.jpg?crop=center&height=400&v=1727424971&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw5-m2lxgdttad521c.16003251732819496.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Bluetooth-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-R6-PAW3950-MAX-Si%C3%AAu-Nh%E1%BA%B9-38G-42000DPI-Dongle-8Khz-i.12208293.25537351714?sp_atk=ddccca51-e168-43dc-989f-3e482cd14038&xptdk=ddccca51-e168-43dc-989f-3e482cd14038",
+      appPC:
+        "https://drive.google.com/file/d/1in_bKGmGqp-i06MxMIWlDf_cdekORHPf/view?usp=drive_link",
+      appWeb: "https://iotdriver.qmk.top/",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark R6",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark X3",
+      name: "Attack Shark X3",
+      image:
+        "https://attackshark.com/cdn/shop/files/1_8a09869b-741a-4c58-a1bd-759f66e37b61.jpg?crop=center&height=400&v=1701937703&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lkhlu545u6jgfd.16004111726260944.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-M%C3%A1y-T%C3%ADnh-Bluetooth-Kh%C3%B4ng-D%C3%A2y-Si%C3%AAu-Chip-PAW3395-Attack-Shark-X3-PRO-T%E1%BA%B7ng-Grip-Tape-C%E1%BA%A3m-Bi%E1%BA%BFn-Cao-C%E1%BA%A5p-i.12208293.19882910922?sp_atk=77e694fa-3d48-496f-bb44-69ce2ad1fb73&xptdk=77e694fa-3d48-496f-bb44-69ce2ad1fb73",
+      appPC:
+        "https://drive.google.com/file/d/1ykijw5CXlD2-dx7XqyrQYNauwOW1cwHw/view?usp=drive_link",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1h5y1HCF3s1oCVcUmxMyKQ7vjvby6VqRd/view?usp=drive_link",
+          title: "Auto Click làm tương tự R1",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm ATTACK SHARK X3",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+    {
+      id: "Attack shark X3 MAX",
+      name: "Attack shark X3 MAX",
+      image:
+        "https://attackshark.com/cdn/shop/files/X3MAX.jpg?crop=center&height=400&v=1723645128&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw7-lzym1g3ppft9e2.16000081725874275.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Chuy%C3%AAn-Game-Attack-Shark-X3Max-Si%C3%AAu-Nh%E1%BA%B9-49G-Chip-X%E1%BB%AD-L%C3%AD-Paw3950Max-42000DPI-i.12208293.27460730742?sp_atk=50700a33-6add-435e-8165-4f65eedb543b&xptdk=50700a33-6add-435e-8165-4f65eedb543b",
+      appPC:
+        "https://drive.google.com/file/d/18RHlqRfIO1gUJO6oGgowHhZhj38Ev1Ug/view?usp=drive_link",
+      appWeb: "http://szslxd-tech.com/#/",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm ATTACK SHARK X3 MAX",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack shark X3 PRO",
+      name: "Attack shark X3 PRO",
+      image:
+        "https://attackshark.com/cdn/shop/files/10_22a28c3e-16bf-4c53-a226-92c1c3d81209.jpg?crop=center&height=400&v=1737168150&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lkhlu545u6jgfd.16004111726260944.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-M%C3%A1y-T%C3%ADnh-Bluetooth-Kh%C3%B4ng-D%C3%A2y-Si%C3%AAu-Chip-PAW3395-Attack-Shark-X3-PRO-T%E1%BA%B7ng-Grip-Tape-C%E1%BA%A3m-Bi%E1%BA%BFn-Cao-C%E1%BA%A5p-i.12208293.19882910922?sp_atk=3d07914f-4967-495e-82f0-0ed6becfbf4d&xptdk=3d07914f-4967-495e-82f0-0ed6becfbf4d",
+      appPC:
+        "https://drive.google.com/file/d/1TSXa27JZ7ML9eiWtBaTjfeoLuJApDLWd/view?usp=drive_link",
+      appWeb: "https://iotdriver.qmk.top/",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack shark X3 PRO",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack shark X3 PRO",
+      name: "Attack shark X3 PRO",
+      image:
+        "https://attackshark.com/cdn/shop/files/10_22a28c3e-16bf-4c53-a226-92c1c3d81209.jpg?crop=center&height=400&v=1737168150&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lkhlu545u6jgfd.16004111726260944.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-M%C3%A1y-T%C3%ADnh-Bluetooth-Kh%C3%B4ng-D%C3%A2y-Si%C3%AAu-Chip-PAW3395-Attack-Shark-X3-PRO-T%E1%BA%B7ng-Grip-Tape-C%E1%BA%A3m-Bi%E1%BA%BFn-Cao-C%E1%BA%A5p-i.12208293.19882910922?sp_atk=3d07914f-4967-495e-82f0-0ed6becfbf4d&xptdk=3d07914f-4967-495e-82f0-0ed6becfbf4d",
+      appPC:
+        "https://drive.google.com/file/d/1TSXa27JZ7ML9eiWtBaTjfeoLuJApDLWd/view?usp=drive_link",
+      appWeb: "https://iotdriver.qmk.top/",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack shark X3 PRO",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Free WOLF M2",
+      name: "Free WOLF M2",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m5cnd2phtefrf0@resize_w450_nl.webp",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lgt76zi6wbn77c.16000081684141073.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-C%C6%A1-M%C3%A1y-T%C3%ADnh-Gaming-M2-Led-RGB-Thi%E1%BA%BFt-K%E1%BA%BF-C%E1%BB%B1c-Ng%E1%BA%A7u-C%C3%A0i-Macro-Chuy%C3%AAn-Nghi%E1%BB%87p-Ch%C6%A1i-Game-M%E1%BB%8Di-Ch%E1%BA%BF-%C4%90%E1%BB%99-i.12208293.20879689869?sp_atk=d9df8736-4c22-461f-89b4-f7a344352363&xptdk=d9df8736-4c22-461f-89b4-f7a344352363",
+      appPC:
+        "https://drive.google.com/file/d/1-BWYcwMyWnfd3IYju_XCgQuNCQMNCVJx/view?usp=drive_link",
+      appWeb: "",
+      videos: [],
+      faqs: [],
+    },
+    {
+      id: "Chuột Gaming G6",
+      name: "Chuột Gaming G6",
+      image:
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmfx6z91tecf1c.webp",
+      previewVideo:
+        "https://down-cvs-sg.vod.susercontent.com/api/v4/11110107/mms/vn_08352042-b470-4184-812b-37c00168bf4f_000236.16000081677810707.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Bluetooth-G6-ESPORT-GAMING-Led-Rgb-13-Ch%E1%BA%BF-%C4%90%E1%BB%99-Thi%E1%BA%BFt-K%E1%BA%BF-C%C3%B4ng-Th%C3%A1i-H%E1%BB%8Dc-Pin-S%E1%BA%A1c-Lithium-i.12208293.20374748280?sp_atk=aa1bf26b-3e05-4a2d-9e90-f2316331c3e2&xptdk=aa1bf26b-3e05-4a2d-9e90-f2316331c3e2",
+      appPC:
+        "https://drive.google.com/drive/folders/1GizojlzfwH_Y7Gk2JA2HsyamzozMZg5L?usp=drive_link",
+      appWeb: "",
+      videos: [],
+      faqs: [
+        {
+          q: "Lưu ý App sản phẩm chỉ hỗ trợ bản dùng dây",
+          a: "App không hỗ trợ bản không dây, vì vậy nếu bạn sử dụng bản không dây thì sẽ không thể cài đặt được các chức năng của chuột.",
+        },
+      ],
+    },
   ],
-  headsets: [],
+  headsets: [
+    {
+      id: "Attack Shark L90",
+      name: "Attack Shark L90",
+      image:
+        "https://attackshark.com/cdn/shop/files/1_5895ea19-bd67-4e80-9b77-1bf3fb474072.jpg?crop=center&height=400&v=1730981823&width=400",
+      previewVideo:
+        "https://down-zl-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khw2-m8g1qnc536tg88.16005581747297365.mp4",
+      dealLink:
+        "https://shopee.vn/Tai-Nghe-Gaming-Ch%E1%BB%A5p-Tai-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-L90-LED-RGB-Micro-Bluetooth-5.3-App-Macro-Pin-S%E1%BA%A1c-i.12208293.27782535933?sp_atk=f6ad8cd1-a78f-4fd9-a4af-78691ed56ee7&xptdk=f6ad8cd1-a78f-4fd9-a4af-78691ed56ee7",
+      appPC:
+        "https://drive.google.com/file/d/1N7Rov8hFiy3O6vVPyl-v6ryijytrZSeZ/view?usp=drive_link",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1MDjbJy3xlJWengdZGi51KvisFllq9YSp/view?usp=drive_link",
+          title: "Cài App Attack Shark L90",
+        },
+      ],
+      faqs: [
+        {
+          q: "Cách bật/tắt tai nghe?",
+          a: "Ấn giữ nút nguồn 3 giây để bật/tắt tai nghe.",
+        },
+        {
+          q: "Chức năng của nút 'M' là gì?",
+          a: "- Ấn 1 lần để bật/tắt micro.\n- Ấn 2 lần liên tục để đổi giữa các chế độ kết nối (Bluetooth, USB 2.4G, JACK 3.5MM).\n- Ấn giữ để bật/tắt LED.",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark L80 Pro",
+      name: "Attack Shark L80 Pro",
+      image:
+        "https://attackshark.com/cdn/shop/files/33ffae0206d3c7cd1aadac09875e5e96_91a97cc9-c332-4906-a06b-158dc6413540.jpg?v=1746683509&width=500",
+      previewVideo:
+        "https://down-tx-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwh-m7bzahrti66we6.16006711747945518.mp4",
+      dealLink:
+        "https://shopee.vn/Tai-Nghe-Kh%C3%B4ng-D%C3%A2y-Ch%E1%BB%A5p-Tai-Bluetooth-Attack-Shark-L80-Super-Bass-%C3%82m-Thanh-V%C3%B2m-C%C3%B3-Mic-Ch%C6%A1i-Game-i.12208293.27407075172?sp_atk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e&xptdk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e",
+      appPC: "",
+      appWeb: "",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1MDjbJy3xlJWengdZGi51KvisFllq9YSp/view?usp=drive_link",
+          title: "Cài App Attack Shark L90",
+        },
+      ],
+      faqs: [
+        {
+          q: "Bật/Tắt nguồn tai nghe?",
+          a: "Nhấn và giữ nút nguồn trong 3 giây.",
+        },
+        {
+          q: "Chuyển đổi chế độ kết nối?",
+          a: "- Chế độ 2.4G: Nhấn LIÊN TỤC nút nguồn 3 lần, đèn sẽ chuyển sang (MÀU XANH LÁ).\n- Chế độ Bluetooth: Tiếp tục nhấn LIÊN TỤC nút nguồn 3 LẦN, đèn sẽ chuyển sang màu (XANH NƯỚC BIỂN).\n- Chế độ có dây: Cắm đầu Type-C vào tai nghe và cắm jack 3.5mm vào PC.",
+        },
+        {
+          q: "Chế độ âm thanh?",
+          a: "Nhấn 2 lần liên tục để chuyển đổi giữa chế độ Âm nhạc và Game, Ở chế độ Game, âm lượng sẽ lớn hơn.",
+        },
+      ],
+    },
+  ],
 };
