@@ -1,5 +1,30 @@
 // Đây là tệp chính, khởi tạo và gắn kết các thành phần của trang.
 // Nó lắng nghe các sự kiện và gọi các hàm tương ứng từ các tệp khác.
+// ...existing code...
+
+// ...existing code...
+
+(function() {
+    const themeToggleButton = document.getElementById("theme-toggle-button");
+
+    function handleThemeToggleVisibility() {
+        if (!themeToggleButton) return;
+        if (window.scrollY > 200) {
+            themeToggleButton.style.opacity = "0";
+            themeToggleButton.style.pointerEvents = "none";
+        } else {
+            themeToggleButton.style.opacity = "1";
+            themeToggleButton.style.pointerEvents = "auto";
+        }
+    }
+
+    window.addEventListener("scroll", handleThemeToggleVisibility);
+    // Gọi 1 lần khi load trang
+    handleThemeToggleVisibility();
+})();
+
+// ...existing code...
+
 
 document.addEventListener("DOMContentLoaded", () => {
     // --- Lấy các element chính ---

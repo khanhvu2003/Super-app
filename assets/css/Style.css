@@ -6,8 +6,8 @@
 */
 @media (max-width: 767px) {
   #theme-toggle-button {
-    right: auto;
-    left: 15px;
+    right: 15px;
+    left: auto;
   }
 }
 
@@ -830,13 +830,6 @@ span.channel-name {
     margin-bottom: 0.5rem;
 }
 
-/* --- PHẦN BỔ SUNG: SỬA LỖI GIAO DIỆN --- */
-@media (max-width: 767px) {
-  #theme-toggle-button {
-    right: auto;
-    left: 15px;
-  }
-}
 
 /* --- GAMING THEME V11.2 - FINAL --- */
 :root {
@@ -1020,3 +1013,4 @@ span.channel-name { font-family: var(--font-heading); font-size: 1rem; font-weig
     30% { opacity: 0; } /* Mờ đi nhanh hơn */
     100% { opacity: 0; } 
 }
+
