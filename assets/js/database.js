@@ -1307,7 +1307,7 @@ const database = {
       dealLink:
         "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Gaming-Attack-Shark-X1-PAW3395-Pro-40.000DPI-Dock-S%E1%BA%A1c-LED-RGB-i.12208293.29580115737?sp_atk=03edf011-3026-4385-ad5c-bf2860abdd40&xptdk=03edf011-3026-4385-ad5c-bf2860abdd40",
       appPC:
-        "https://drive.google.com/file/d/10GP8v7SmDBJt6MAfq3YiQkgOYgD8f1cm/view?usp=drive_link",
+        "https://drive.google.com/file/d/1efXRgYgogCKWWWrTCMCB6RgcVBXcslkT/view?usp=drive_link",
       appWeb: "",
       videos: [],
       faqs: [
