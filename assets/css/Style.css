@@ -1698,5 +1698,33 @@ span.channel-name {
 .category-filter-btn:hover {
   background: var(--primary-color);
   color: #111;
+}/* Điều chỉnh khoảng cách dòng cho phần tiêu đề và chú thích AI */
+#global-ai-section .section-title {
+  margin-bottom: 1.2rem !important; /* Tiêu đề gần chú thích hơn */
+  line-height: 1.1 !important;
+}
+
+#global-ai-section p {
+  margin-bottom: 1 rem !important; /* Chú thích gần textarea hơn */
+  line-height: 1.3 !important;
+  font-size: 1.5rem;
+}
+
+/* Nếu muốn textarea và nút gần nhau hơn */
+#global-ai-section .flex.flex-col.gap-4 {
+  gap: 0.8rem !important;
+}
+
+/* Điều chỉnh tiêu đề và chú thích cho phần Tìm Kiếm Driver & Hỗ Trợ */
+#search-section .section-title {
+  font-size: 2.7rem !important;      /* Chữ to hơn */
+  margin-bottom: 1.2rem !important;  /* Gần chú thích hơn */
+  line-height: 1.1 !important;
+}
+
+#search-section p {
+  font-size: 1.25rem !important;     /* Chữ chú thích to hơn */
+  margin-bottom: 1.2rem !important;  /* Gần input hơn */
+  line-height: 1.3 !important;
 }
 

@@ -1485,31 +1485,6 @@ const database = {
     },
 
     {
-      id: "Attack shark X3 PRO",
-      name: "Attack shark X3 PRO",
-      image:
-        "https://attackshark.com/cdn/shop/files/10_22a28c3e-16bf-4c53-a226-92c1c3d81209.jpg?crop=center&height=400&v=1737168150&width=400",
-      previewVideo:
-        "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lkhlu545u6jgfd.16004111726260944.mp4",
-      dealLink:
-        "https://shopee.vn/Chu%E1%BB%99t-M%C3%A1y-T%C3%ADnh-Bluetooth-Kh%C3%B4ng-D%C3%A2y-Si%C3%AAu-Chip-PAW3395-Attack-Shark-X3-PRO-T%E1%BA%B7ng-Grip-Tape-C%E1%BA%A3m-Bi%E1%BA%BFn-Cao-C%E1%BA%A5p-i.12208293.19882910922?sp_atk=3d07914f-4967-495e-82f0-0ed6becfbf4d&xptdk=3d07914f-4967-495e-82f0-0ed6becfbf4d",
-      appPC:
-        "https://drive.google.com/file/d/1TSXa27JZ7ML9eiWtBaTjfeoLuJApDLWd/view?usp=drive_link",
-      appWeb: "https://iotdriver.qmk.top/",
-      videos: [],
-      faqs: [
-        {
-          q: "Làm thế nào để kết nối sản phẩm Attack shark X3 PRO",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
-        },
-        {
-          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
-          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
-        },
-      ],
-    },
-
-    {
       id: "Free WOLF M2",
       name: "Free WOLF M2",
       image:
