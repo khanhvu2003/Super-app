@@ -1198,7 +1198,7 @@ const database = {
       dealLink:
         "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Bluetooth-Chip-PAW3395-Gaming-Attack-Shark-X6-Con-L%C4%83n-TTC-Dock-S%E1%BA%A1c-LED-RGB-i.12208293.25602951571?sp_atk=36e3160e-c30e-4d6b-a566-c6edece7bd2a&xptdk=36e3160e-c30e-4d6b-a566-c6edece7bd2a",
       appPC:
-        "https://drive.google.com/file/d/1YfBoo0c-Ynffs7R2z1Tfy3W3IaO_REzy/view?usp=drive_link",
+        "https://drive.google.com/file/d/1-Sdk4D1kehcXdfchi9LUEhLezkG5MEt0/view?usp=drive_link",
       appWeb: "",
       videos: [
         {
