@@ -743,6 +743,42 @@ const database = {
       ],
     },
     {
+      id: "AULA F75",
+      name: "AULA F75",
+      image: "img/AULA F75.png",
+      previewVideo:
+        "https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6khwj-lxdid37fc5i331.16000081720238390.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Kh%C3%B4ng-D%C3%A2y-Bluetooth-AULA-F75-PRO-V2-NEW-2025-C%C3%B3-App-Led-RGB-i.12208293.25233149243?sp_atk=b8ce0df0-c364-447f-b0b6-71f3ee38ee80&xptdk=b8ce0df0-c364-447f-b0b6-71f3ee38ee80",
+      appPC:
+        "https://drive.google.com/file/d/1bbgGrh-fXG9D3PW6wkk4fo081IFxR3V_/view?usp=drive_link",
+      appWeb: "",
+      videos: [],
+      faqs: [
+        {
+          q: "Làm thế nào để reset bàn phím về cài đặt gốc?",
+          a: "Nhấn và giữ tổ hợp phím `Fn + ESC` trong 5 giây.",
+        },
+        {
+          q: "Làm thế nào để chuyển đổi chức năng của núm xoay?",
+          a: "Nhấn và giữ tổ hợp `FN + Núm xoay` trong 5s để chuyển đổi giữa chế độ điều chỉnh Media (âm lượng) và chế độ LED (độ sáng).",
+        },
+        {
+          q: "Làm thế nào để kết nối lại USB 2.4G?",
+          a: "1. Rút đầu thu USB 2.4G ra khỏi máy tính.\n2. Nhấn và giữ tổ hợp phím FN + ` trong 5 giây.\n3. Cắm lại đầu thu vào máy tính để kết nối lại.",
+        },
+        {
+          q: "Làm sao để kết nối lại Bluetooth?",
+          a: "1. Gạt công tắc bàn phím sang chế độ Bluetooth.\n2. Chọn kênh Bluetooth cần kết nối lại bằng cách giữ `FN + 1`, `FN + 2` hoặc `FN + 3` trong 5 giây.\n3. Mở cài đặt Bluetooth trên thiết bị của bạn và tìm lại bàn phím.",
+        },
+        {
+          q: "Làm thế nào để đổi chế độ LED?",
+          a: "nhấn tổ hợp phím `FN + \\ để chuyển chế độ LED`.",
+        },
+      ],
+    },
+
+    {
       id: "Dark Alien R83",
       name: "Dark Alien R83",
       image: "img/R83 DARK ALIEN.png",
