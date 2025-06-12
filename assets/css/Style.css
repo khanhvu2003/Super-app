@@ -1728,3 +1728,41 @@ span.channel-name {
   line-height: 1.3 !important;
 }
 
+/* Highlight link tải app khi AI trả về hoặc trong modal sản phẩm */
+.ai-app-link,
+#modalContent .btn-primary,
+#modalContent .btn-secondary {
+  background: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 10px 22px;
+  box-shadow: 0 2px 16px 0 rgba(6,182,212,0.18);
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 8px 0;
+  border: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
+}
+
+.ai-app-link:hover,
+#modalContent .btn-primary:hover,
+#modalContent .btn-secondary:hover {
+  background: linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%);
+  color: #fff !important;
+  box-shadow: 0 4px 24px 0 rgba(59,130,246,0.18);
+  text-decoration: underline !important;
+  outline: 2px solid #3b82f6;
+}
+
+/* Thêm icon chỉ dẫn cho link app nếu muốn */
+.ai-app-link::before {
+  content: "⬇️ ";
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
