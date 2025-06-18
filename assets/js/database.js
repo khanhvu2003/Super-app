@@ -396,8 +396,21 @@ const database = {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
         },
+        {
+          url: "https://drive.google.com/file/d/1Atm1RzyJ9irk7Sn_O67JSRnOobPiHDi0/view?usp=drive_link",
+          title:
+            "Chuyển chế độ Win dows sang macOS làm tương tự như X68 Pro HE",
+        },
       ],
       faqs: [
+        {
+          q: "Làm sao để chuyển layout sang Windows?",
+          a: "Sử dụng tổ hợp phím `FN + A`.",
+        },
+        {
+          q: "Làm sao để chuyển layout sang macOS?",
+          a: "Sử dụng tổ hợp phím `FN + S`.",
+        },
         {
           q: "Bàn phím không nhận khi cắm dây, tôi phải làm gì?",
           a: "Hãy thử sử dụng một sợi cáp USB-C khác để kiểm tra. Nếu vẫn không được, vui lòng liên hệ bộ phận hỗ trợ.",
@@ -437,8 +450,20 @@ const database = {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
         },
+        {
+          url: "https://drive.google.com/file/d/1Atm1RzyJ9irk7Sn_O67JSRnOobPiHDi0/view?usp=drive_link",
+          title: "Chuyển chế độ Win dows sang macOS",
+        },
       ],
       faqs: [
+        {
+          q: "Làm sao để chuyển layout sang Windows?",
+          a: "Sử dụng tổ hợp phím `FN + A`.",
+        },
+        {
+          q: "Làm sao để chuyển layout sang macOS?",
+          a: "Sử dụng tổ hợp phím `FN + S`.",
+        },
         {
           q: "Làm thế nào để chuyển đổi chức năng của hàng phím F?",
           a: "Sử dụng tổ hợp phím `Fn + Shift` để chuyển đổi chức năng của hàng phím F (ví dụ: F1-F12 và các phím media).",
@@ -482,8 +507,21 @@ const database = {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
         },
+        {
+          url: "https://drive.google.com/file/d/1Atm1RzyJ9irk7Sn_O67JSRnOobPiHDi0/view?usp=drive_link",
+          title:
+            "Chuyển chế độ Win dows sang macOS làm tương tự như X68 Pro HE",
+        },
       ],
       faqs: [
+        {
+          q: "Làm sao để chuyển layout sang Windows?",
+          a: "Sử dụng tổ hợp phím `FN + A`.",
+        },
+        {
+          q: "Làm sao để chuyển layout sang macOS?",
+          a: "Sử dụng tổ hợp phím `FN + S`.",
+        },
         {
           q: "Làm sao để kiểm tra mức pin?",
           a: "Sử dụng tổ hợp phím `Fn + Backspace`.",
