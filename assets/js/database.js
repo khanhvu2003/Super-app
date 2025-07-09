@@ -346,6 +346,43 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "Attack Shark X68 MAX HE",
+      name: "Attack Shark X68 MAX HE",
+      image: "img/x68max.png",
+      previewVideo:
+        "https://down-tx-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kinx-mbt1ovigbwq203.16005581751980871.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Rapid-Trigger-Nh%C3%B4m-CNC-Attack-Shark-X68MAX-Polling-Rate-8KHz-LED-RGB-App-Macro-M%E1%BA%A1ch-Xu%C3%B4i-i.12208293.40506782349?sp_atk=332808d7-3f2e-4e9d-8b9b-1b13345e2a0b&xptdk=332808d7-3f2e-4e9d-8b9b-1b13345e2a0b",
+      appPC: "",
+      appWeb: "https://www.qmk.top/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
+          title: "Chỉnh SOCD",
+        },
+      ],
+      faqs: [
+        {
+          q: "Bàn phím không nhận khi cắm dây, tôi phải làm gì?",
+          a: "Hãy thử sử dụng một sợi cáp USB-C khác để kiểm tra.\n Nếu vẫn không được, vui lòng liên hệ bộ phận hỗ trợ.",
+        },
+        {
+          q: "Chuyển chế độ LED",
+          a: "Sử dụng tổ hợp phím `FN + \\`.",
+        },
+        {
+          q: "Làm sao chuyển f1-f12 thành phím số?",
+          a: "Sử dụng tổ hợp phím `Fn + Shift` để chuyển đổi chức năng của hàng phím F sang phím số.",
+        },
+        {
+          q: "Sự khác biệt giữa Attack Shark X68 HE, X68 PRO và X68 MAX là gì?",
+          a: "X68 HE phù hợp cho game thủ tìm kiếm tốc độ phản hồi cao (8000Hz)\n thiết kế đơn giản bằng nhựa cao cấp. X68 PRO hỗ trợ cả không dây và có dây, nhưng polling rate mặc định là 1000Hz.\n X68 MAX HE là bản cao cấp nhất với vỏ nhôm CNC, độ chính xác cao (0.005mm) và polling rate tùy chỉnh từ 125Hz đến 8000Hz.",
+        },
+      ],
+    },
+
     {
       id: "Attack Shark X65 HE",
       name: "Attack Shark X65 HE",
@@ -1226,6 +1263,52 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "Attack Shark X11 SE",
+      name: "Attack Shark X11 SE",
+      image: "img/mouse/X11SE.jpg",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kio4-mbx9j003wtwq63.16000081751943583.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-FreeWolf-X11SE-3-Ch%E1%BA%BF-%C4%90%E1%BB%99-K%E1%BA%BFt-N%E1%BB%91i-Chip-PAW3311-22.000-DPI-Pin-S%E1%BA%A1c-Switch-Huano-i.12208293.41656976929?sp_atk=74103745-3a5e-4c9e-89c6-0910b02c0b95&xptdk=74103745-3a5e-4c9e-89c6-0910b02c0b95",
+      appPC:
+        "https://drive.google.com/file/d/1jV3c3Z3he_Tpn_dc7T80X2JP-V9kXDMt/view?usp=drive_link",
+      appWeb: "http://szslxd-tech.com/#/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1HzUYbT75UD69XZV0ZE4RF-UDH1_XLzyh/view?usp=drive_link",
+          title: "Sản phẩm làm tương tự Macro Attack Shark R1",
+        },
+        {
+          url: "https://drive.google.com/file/d/1y1KuDP3JxTshoNNrJ3J42Aub_VO9-ioz/view?usp=drive_link",
+          title: "Sản phẩm làm tương tự Auto Click Attack Shark R1",
+        },
+        {
+          url: "https://drive.google.com/file/d/1oDpUM2e9sJz2DQPfFyHQP2ZlH3RS8aZ4/view?usp=drive_link",
+          title: "Sản phẩm làm tương tự Reset Attack Shark R1",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark X11 SE?",
+          a: "Để kết nối chế độ USB 2.4G:\n1. Gạt công tắc chuột sang chế độ USB 2.4G và tháo USB ra khỏi máy.\n2. Nhấn giữ nút RESET ở mặt dưới trong 5 giây để vào chế độ ghép nối.\n3. Cắm lại USB vào máy để kết nối.\n\nĐể kết nối Bluetooth:\n1. Gạt công tắc sang Bluetooth.\n2. Nhấn giữ RESET 5 giây để ghép nối.\n3. Kết nối qua cài đặt Bluetooth của thiết bị.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Hỗ trợ kết nối với điện thoại, tablet, laptop, PC, Smart TV... nhưng không tương thích với PS4, PS5, Xbox, iPhone.",
+        },
+        {
+          q: "Cách chỉnh thời gian Sleep Chuột Attack Shark X11 SE?",
+          a: "Tải phần mềm và điều chỉnh thời gian trong mục Sleep bên phải giao diện phần mềm.",
+        },
+        {
+          q: "Điểm khác biệt giữa Attack Shark X11 và X11 SE là gì?",
+          a: "Cả hai chuột đều dùng sensor PixArt PAW3311, DPI lên đến 22.000 và switch Huano/Huyu.\n Tuy nhiên, X11 SE không có đế sạc LED RGB còn X11 có tích hợp đế sạc đẹp mắt.\n Các thông số khác như polling rate, trọng lượng và kết nối đều giống nhau.",
+        },
+      ],
+    },
+
     {
       id: "Attack shark X6",
       name: "Attack shark X6",
@@ -1445,10 +1528,81 @@ const database = {
     },
 
     {
+      id: "Attack Shark G3",
+      name: "Attack Shark G3",
+      image:
+        "img/mouse/Attack_Shark_G3.jpg",
+      previewVideo: "",
+      dealLink: "",
+      appPC:
+        "https://drive.google.com/file/d/139QDszsDVpUnUM_EqitDR15hSFSoi00B/view?usp=drive_link",
+      appWeb: "http://szslxd-tech.com/#/",
+      videos: [],
+      specs: {
+        giaoDienSanPham: "USB / 2.4G / Bluetooth",
+        giaoDienSac: "USB Type-C",
+        sensor: "PixArt PAW3311",
+        chipDieuKhien: "Broadcom BK3620",
+        tanSoTruyen: "2402MHz - 2480MHz",
+        pollingRate: {
+          coDay_va_24G: "125 / 250 / 500 / 1000 Hz (tùy chỉnh bằng driver)",
+          bluetooth: "125 Hz (không chỉnh được)",
+        },
+        tangTocToiDa: "40G",
+        dpi: {
+          default: "800 / 1600 / 2400 / 3200 / 4800 / 25000",
+          colorIndicator: {
+            800: "Đỏ",
+            1600: "Xanh lục",
+            2400: "Xanh lam",
+            3200: "Vàng",
+            4800: "Tím nhạt",
+            25000: "Tím đậm",
+          },
+        },
+        dungLuongPin: "500mAh Polymer",
+        dongDienSac: "<230mA",
+        dienApSac: "4.25V - 5.25V",
+        trongLuong: "58g ± 3g",
+        kichThuoc: "117 x 61.5 x 37.8 mm",
+        chieuDaiCap: "Type-C / 1.6 mét",
+        khoangCachKhongDay: "Tối đa 10 mét",
+        switch: "Huanyu – 80 triệu lần nhấp",
+        giaiMaChip: "Fengshi Weiqi – 300.000 lần",
+        hoTroHeDieuHanh: "Windows XP / 7 / 8 / 10 / 11, macOS, Android, Linux",
+      },
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối Bluetooth cho G3?",
+          a: 'Gạt công tắc sang BT → Nhấn giữ chuột trái + chuột phải + nút giữa trong 3 giây → Đèn xanh Bluetooth nhấp nháy → Kết nối "G3 Mouse" trong cài đặt thiết bị → Khi kết nối thành công, đèn xanh sẽ sáng 1 giây rồi tắt.',
+        },
+        {
+          q: "Cách kết nối chế độ 2.4G?",
+          a: "Lấy USB 2.4G ra khỏi ngăn chuột → Gạt công tắc sang 2.4G → Cắm receiver vào máy tính. Nếu không tự nhận:\nNhấn giữ chuột trái + nút giữa 3 giây → đèn đỏ nhấp nháy → kết nối lại USB.",
+        },
+        {
+          q: "Cách sử dụng chế độ có dây?",
+          a: "Cắm cáp Type-C đi kèm → chuột tự động chuyển sang chế độ có dây và sạc.",
+        },
+        {
+          q: "Chuột tự tắt sau một lúc không dùng?",
+          a: "Sau 10 giây không hoạt động: Sleep nông. Sau 10 phút không hoạt động: Sleep sâu. Di chuyển chuột hoặc nhấn nút bất kỳ để đánh thức.",
+        },
+        {
+          q: "Có thể sạc chuột bằng củ sạc nhanh không?",
+          a: "Không. Không dùng củ sạc nhanh >5V để bảo vệ pin. Nên sạc qua cổng USB máy tính.",
+        },
+        {
+          q: "Tôi không thấy DPI hiển thị màu?",
+          a: "Mỗi mức DPI tương ứng màu khác nhau. Nhấn nút DPI để chuyển và quan sát màu đèn báo (đỏ, xanh, vàng, tím...).",
+        },
+      ],
+    },
+
+    {
       id: "Attack Shark X3",
       name: "Attack Shark X3",
-      image:
-        "https://attackshark.com/cdn/shop/files/1_8a09869b-741a-4c58-a1bd-759f66e37b61.jpg?crop=center&height=400&v=1701937703&width=400",
+      image: "img/mouse/attackshark_x3.jpg",
       previewVideo:
         "https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6jrnl-lkhlu545u6jgfd.16004111726260944.mp4",
       dealLink:
