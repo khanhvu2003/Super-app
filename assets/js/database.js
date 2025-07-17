@@ -1273,7 +1273,7 @@ const database = {
       dealLink:
         "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-FreeWolf-X11SE-3-Ch%E1%BA%BF-%C4%90%E1%BB%99-K%E1%BA%BFt-N%E1%BB%91i-Chip-PAW3311-22.000-DPI-Pin-S%E1%BA%A1c-Switch-Huano-i.12208293.41656976929?sp_atk=74103745-3a5e-4c9e-89c6-0910b02c0b95&xptdk=74103745-3a5e-4c9e-89c6-0910b02c0b95",
       appPC:
-        "https://drive.google.com/file/d/1jV3c3Z3he_Tpn_dc7T80X2JP-V9kXDMt/view?usp=drive_link",
+        "https://support.attackshark.com/attackshark/ATTACK_SHARK_X11SE/Attack_Shark_X11SE_Software.exe",
       appWeb: "http://szslxd-tech.com/#/",
       videos: [
         {
