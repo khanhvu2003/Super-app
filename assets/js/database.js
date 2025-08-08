@@ -348,6 +348,40 @@ const database = {
     },
 
     {
+      id: "Attack Shark R82HE",
+      name: "Attack Shark R82HE",
+      image:
+        "https://attackshark.com/cdn/shop/files/5_9_fa5d4e16-a769-4a78-9f9d-75ff08f6c47c.jpg?crop=center&height=400&v=1754568250&width=400",
+      previewVideo:
+        "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kiny-mcspboh7bxr07a.16000081753846717.mp4",
+      dealLink:
+        "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Gaming-Attack-Shark-R82HE-Magnetic-Switch-Rapid-Trigger-0.005mm-Polling-Rate-8000Hz-i.12208293.41110331101",
+      appPC:
+        "https://drive.google.com/drive/folders/1v8-UMG7esKMVYTmYGZZrZGf_HSnBo0Z6?usp=drive_link",
+      appWeb: "https://www.qmk.top/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
+          title: "Chỉnh SOCD",
+        },
+      ],
+      faqs: [
+        {
+          q: "Bàn phím không nhận khi cắm dây, tôi phải làm gì?",
+          a: "Hãy thử sử dụng một sợi cáp USB-C khác để kiểm tra. Nếu vẫn không được, vui lòng liên hệ bộ phận hỗ trợ.",
+        },
+        {
+          q: "Chuyển chế độ LED",
+          a: "Sử dụng tổ hợp phím `FN + \\`.",
+        },
+        {
+          q: "Làm sao chuyển f1-f12 thành phím số?",
+          a: "Sử dụng tổ hợp phím `Fn + Shift` để chuyển đổi chức năng của hàng phím F sang phím số.",
+        },
+      ],
+    },
+
+    {
       id: "Attack Shark X68 MAX HE",
       name: "Attack Shark X68 MAX HE",
       image: "img/x68max.png",
@@ -797,7 +831,7 @@ const database = {
       name: "AULA F99 Pro",
       image: "img/F99.png",
       previewVideo: "",
-      dealLink: "#",
+      dealLink: "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Bluetooth-Kh%C3%B4ng-D%C3%A2y-AULA-F99PRO-V2-LED-RGB-3-Mode-L%C3%B3t-Foam-Hotswap-5-Pin-M%E1%BA%A1ch-Xu%C3%B4i-i.12208293.28258089985?sp_atk=5d9f282d-8101-44a4-ae46-3e54c4e5e62d&xptdk=5d9f282d-8101-44a4-ae46-3e54c4e5e62d",
       appPC:
         "https://drive.google.com/file/d/1u5d7dvW8VqeGFtk2C6MDAtabBQAuo6nO/view?usp=drive_link",
       appWeb: "",
@@ -916,6 +950,63 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "X820 Ultra",
+      name: "Attack Shark X820 Ultra",
+      image: "https://attackshark.com/cdn/shop/files/X820Ultra.1145.jpg?v=1752654059&width=800",          // TODO: điền link ảnh
+      previewVideo: "https://down-tx-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kio3-mcsoy5y9axss5b.16000081753846083.mp4",   // TODO: điền link video
+      dealLink: "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-X820-Ultra-Gasket-%C3%8Am-%C3%81i-Hot-Swap-LED-RGB-M%C3%A0n-H%C3%ACnh-LCD-Pin-4000mAh-i.12208293.27789159318",       // TODO: điền link mua hàng
+      appPC: "https://drive.google.com/drive/folders/1O05lWl_k4qa5S_AmbMytIOKBMp2ViyLh?usp=drive_link",
+      appWeb: "",
+      videos: [{
+        url: "https://drive.google.com/file/d/1BKG9aOmuDr8IX5MEV2mFfBvgtl5M2aEi/view?usp=drive_link",
+        title: "Hướng dẫn tùy chỉnh màn hình",
+      },
+      {
+        url: "https://drive.google.com/file/d/1azp3kNol4tM-hgKcH26Nm6K9xAQHSH4b/view?usp=drive_link",
+        title: "Hướng dẫn chỉnh thời gian trên màn hình",
+      },],
+      faqs: [
+        {
+          q: "Cách kết nối có dây?",
+          a: "Gạt công tắc về vị trí giữa (chế độ có dây) rồi cắm cáp để sử dụng."
+        },
+        {
+          q: "Cách kết nối qua USB 2.4G?",
+          a:
+            "1) Gạt công tắc sang chế độ 2.4G.\n" +
+            "2) Nhấn tổ hợp FN + 4 trong 5 giây để reset/ghép lại đầu thu."
+        },
+        {
+          q: "Cách kết nối Bluetooth?",
+          a:
+            "Có 3 kênh BT:\n" +
+            "- Kênh 1: FN + 1\n" +
+            "- Kênh 2: FN + 2\n" +
+            "- Kênh 3: FN + 3\n" +
+            "Nhấn giữ 5 giây tổ hợp kênh tương ứng để reset và vào chế độ ghép nối."
+        },
+        {
+          q: "Làm sao reset bàn phím hoặc vào app?",
+          a: "Nhấn giữ FN + ESC trong 5 giây."
+        },
+        {
+          q: "Đổi giữa chỉnh LCD và Media thế nào?",
+          a: "Nhấn FN + nhấn núm xoay 1 lần để chuyển chế độ giữa điều chỉnh Màn LCD và Media."
+        },
+        {
+          q: "Chuyển layout Windows/Mac?",
+          a: "Gạt công tắc chuyển đổi layout Win/Mac."
+        },
+        {
+          q: "Đổi chế độ LED?",
+          a: "Nhấn tổ hợp FN + \\ để đổi chế độ LED (hoặc chỉnh trong app và trên màn hình)."
+        }
+      ]
+    },
+
+
     {
       id: "Free world M87",
       name: "Free world M87",
@@ -1273,7 +1364,7 @@ const database = {
       dealLink:
         "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-FreeWolf-X11SE-3-Ch%E1%BA%BF-%C4%90%E1%BB%99-K%E1%BA%BFt-N%E1%BB%91i-Chip-PAW3311-22.000-DPI-Pin-S%E1%BA%A1c-Switch-Huano-i.12208293.41656976929?sp_atk=74103745-3a5e-4c9e-89c6-0910b02c0b95&xptdk=74103745-3a5e-4c9e-89c6-0910b02c0b95",
       appPC:
-        "https://support.attackshark.com/attackshark/ATTACK_SHARK_X11SE/Attack_Shark_X11SE_Software.exe",
+        "https://drive.google.com/drive/folders/1cMRDs3n6Cqqj11XuYyrFVZXx0bjIXJs0?usp=drive_link",
       appWeb: "http://szslxd-tech.com/#/",
       videos: [
         {
@@ -1308,6 +1399,42 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "Free Wolf A7",
+      name: "Free Wolf A7",
+      image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mcranwv8d5f13f@resize_w900_nl.webp",          // TODO: điền link ảnh
+      previewVideo: "https://down-tx-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kio9-md03i3gdxkkc3a.16000081754294297.mp4",   // TODO: điền link video
+      dealLink: "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Free-Wolf-A7-C%E1%BA%A3m-Bi%E1%BA%BFn-PAW3311-24.000-DPI-Dock-S%E1%BA%A1c-RGB-M%C3%A0n-H%C3%ACnh-%C4%90a-N%C4%83ng-i.12208293.41360709601",       // TODO: điền link mua hàng
+      appPC: "https://drive.google.com/drive/folders/1UYUn3kY_dMwPYsP2eEV14K7tk89eWt8T?usp=drive_link",          // TODO: link app tùy chỉnh (nếu có)
+      appWeb: "",         // TODO: link app web (nếu có)
+      videos: [],
+      faqs: [
+        {
+          q: "Kết nối qua USB 2.4G như thế nào?",
+          a:
+            "Thực hiện 4 bước:\n" +
+            "1) Gạt công tắc sang chế độ USB.\n" +
+            "2) Rút đầu thu USB 2.4G khỏi thiết bị.\n" +
+            "3) Nhấn nút PAIR giữ 5 giây để reset kết nối.\n" +
+            "4) Cắm lại đầu thu USB 2.4G vào thiết bị."
+        },
+        {
+          q: "Kết nối qua Bluetooth như thế nào?",
+          a:
+            "Thực hiện 3 bước:\n" +
+            "1) Gạt công tắc sang chế độ Bluetooth.\n" +
+            "2) Nhấn giữ nút PAIR 5 giây để vào chế độ ghép nối.\n" +
+            "3) Quét Bluetooth trên thiết bị và kết nối với chuột."
+        },
+        {
+          q: "Chuột có app để tùy chỉnh không?",
+          a:
+            "Có. Có app riêng để tùy chỉnh macro và các chức năng như macro, auto click..."
+        }
+      ]
+    },
+
 
     {
       id: "Attack shark X6",
@@ -1618,6 +1745,34 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm ATTACK SHARK X3",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+
+    {
+      id: "Attack Shark X8SE, PLUS, PRO",
+      name: "Attack Shark X8SE, PLUS, PRO",
+      image: "https://attackshark.com/cdn/shop/files/1_f8075bfb-d487-4be6-a991-9117c657eb11.jpg?crop=center&height=400&v=1753341472&width=400",
+      previewVideo:
+        "https://down-ws-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6kint-mcsovdqxxrocbe.16000081753845954.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-X8-PRO-Chip-PAW3395-Pro-Polling-Rate-8KHz-Switch-Omron-Pin-S%E1%BA%A1c-i.12208293.42859403204",
+      appPC:
+        "https://drive.google.com/drive/folders/1_mIxLL9m8szn-emPFXy1-BG_9vMX5NXV?usp=drive_link",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1h5y1HCF3s1oCVcUmxMyKQ7vjvby6VqRd/view?usp=drive_link",
+          title: "Auto Click làm tương tự R1",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark X8SE, PLUS, PRO",
           a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
