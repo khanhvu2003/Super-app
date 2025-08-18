@@ -158,7 +158,7 @@ const database = {
       dealLink:
         "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Bluetooth-Kh%C3%B4ng-D%C3%A2y-K86-RGB-PRO-VIP-C%C3%B3-M%C3%A0n-H%C3%ACnh-App-T%C3%B9y-Ch%E1%BB%89nh-HOTSWAP-5-Pin-L%C3%B3t-Foam-i.12208293.23655235090?sp_atk=70b02146-50e3-438b-860f-87b4052615bb&xptdk=70b02146-50e3-438b-860f-87b4052615bb",
       appPC:
-        "https://drive.google.com/file/d/11txBs7GC7_qmArS3wOXxsR4BuYTI9xlP/view?usp=drive_link",
+        "https://drive.google.com/drive/folders/1_boz-yXWUwpXQewCd5fSDCHDjRsZ5um4?usp=drive_link",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
         {
