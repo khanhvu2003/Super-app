@@ -314,8 +314,8 @@ const database = {
       ],
     },
     {
-      id: "Attack Shark X68 HE",
-      name: "Attack Shark X68 HE",
+      id: "X68 HE",
+      name: "X68 HE",
       image:
         "https://attackshark.com/cdn/shop/files/08_124c2ed9-35a7-4eef-8a06-53b081fb3625.jpg?v=1739780205&width=800",
       previewVideo:
@@ -348,8 +348,8 @@ const database = {
     },
 
     {
-      id: "Attack Shark R82HE",
-      name: "Attack Shark R82HE",
+      id: "R82HE",
+      name: "R82HE",
       image:
         "https://attackshark.com/cdn/shop/files/5_9_fa5d4e16-a769-4a78-9f9d-75ff08f6c47c.jpg?crop=center&height=400&v=1754568250&width=400",
       previewVideo:
@@ -382,7 +382,7 @@ const database = {
     },
 
     {
-      id: "Attack Shark X68 MAX HE",
+      id: "X68 MAX HE",
       name: "Attack Shark X68 MAX HE",
       image: "img/x68max.png",
       previewVideo:
@@ -1555,8 +1555,8 @@ const database = {
       dealLink:
         "https://shopee.vn/Chu%E1%BB%99t-Kh%C3%B4ng-D%C3%A2y-Gaming-Attack-Shark-X1-PAW3395-Pro-40.000DPI-Dock-S%E1%BA%A1c-LED-RGB-i.12208293.29580115737?sp_atk=03edf011-3026-4385-ad5c-bf2860abdd40&xptdk=03edf011-3026-4385-ad5c-bf2860abdd40",
       appPC:
-        "https://drive.google.com/file/d/1efXRgYgogCKWWWrTCMCB6RgcVBXcslkT/view?usp=drive_link",
-      appWeb: "",
+        "https://drive.google.com/drive/folders/1jIGRov0w-oUQ1WZ6NY8ctwLHCqqFrVR6?usp=drive_link",
+      appWeb: "http://szslxd-tech.com/#/",
       videos: [],
       faqs: [
         {
