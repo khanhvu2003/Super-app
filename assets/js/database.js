@@ -330,6 +330,10 @@ const database = {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
         },
+        {
+          url: "https://drive.google.com/file/d/1tejRESXLWwW5Hip7NJ0tvW6RUTvDkrop/view?usp=drive_link",
+          title: "lƯU Ý: CẮM DÂY CHỈNH POLLING RATE. RAPID TRIGGER + SOCD + 8KHZ",
+        },
       ],
       faqs: [
         {
@@ -382,7 +386,7 @@ const database = {
     },
 
     {
-      id: "X68 MAX HE",
+      id: "Attack Shark X68 MAX HE",
       name: "Attack Shark X68 MAX HE",
       image: "img/x68max.png",
       previewVideo:
@@ -395,6 +399,10 @@ const database = {
         {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
+        },
+        {
+          url: "https://drive.google.com/file/d/1tejRESXLWwW5Hip7NJ0tvW6RUTvDkrop/view?usp=drive_link",
+          title: "lƯU Ý: CẮM DÂY CHỈNH POLLING RATE. RAPID TRIGGER + SOCD + 8KHZ",
         },
       ],
       faqs: [
@@ -525,6 +533,10 @@ const database = {
           url: "https://drive.google.com/file/d/1Atm1RzyJ9irk7Sn_O67JSRnOobPiHDi0/view?usp=drive_link",
           title: "Chuyển chế độ Win dows sang macOS",
         },
+        {
+          url: "https://drive.google.com/file/d/1tejRESXLWwW5Hip7NJ0tvW6RUTvDkrop/view?usp=drive_link",
+          title: "lƯU Ý: CẮM DÂY CHỈNH POLLING RATE. RAPID TRIGGER + SOCD + 8KHZ",
+        },
       ],
       faqs: [
         {
@@ -577,6 +589,10 @@ const database = {
         {
           url: "https://drive.google.com/file/d/1J6cFPUuu5Aq0OW7ci1cSKpK0pfUudLKm/view?usp=drive_link",
           title: "Chỉnh SOCD",
+        },
+        {
+          url: "https://drive.google.com/file/d/1UkDTqDV45qp0bSA1WFo0bOJ2sSRPfQ0a/view?usp=drive_link",
+          title: "lƯU Ý: CẮM DÂY CHỈNH POLLING RATE. RAPID TRIGGER + SOCD + 8KHZ",
         },
         {
           url: "https://drive.google.com/file/d/1Atm1RzyJ9irk7Sn_O67JSRnOobPiHDi0/view?usp=drive_link",
