@@ -435,7 +435,7 @@ const database = {
       dealLink:
         "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-Gaming-Rapid-Trigger-Attack-Shark-X65HE-Led-RGB-Polling-Rate-8K-Hz-SOCD-App-Macro-i.12208293.26927226409?sp_atk=3c009973-56b7-4d00-81d0-b0fc3b7d52d5&xptdk=3c009973-56b7-4d00-81d0-b0fc3b7d52d5",
       appPC:
-        "https://drive.google.com/file/d/1yLL-KSMDdlPbm3YShrtG6o46uXmzEiR1/view?usp=drive_link",
+        "https://drive.google.com/drive/folders/1RwuU0riPnezA7n7Kdsx9bL11ljd2Zn-_?usp=drive_link",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
         {
@@ -748,7 +748,7 @@ const database = {
       dealLink:
         "https://shopee.vn/Ba%CC%80n-Phi%CC%81m-C%C6%A1-Bluetooth-Attack-Shark-X98-PRO-MAX-C%C3%B3-M%C3%A0n-H%C3%ACnh-3-Mode-cho-m%C3%A1y-t%C3%ADnh-laptop-pc-i.12208293.28918629132?sp_atk=cfe1d8e7-885e-46b8-a0f1-3d58e00c488f&xptdk=cfe1d8e7-885e-46b8-a0f1-3d58e00c488f",
       appPC:
-        "https://drive.google.com/file/d/1mgtzUYotUB_x8gbu0zcY5e_y9zs7egDh/view?usp=drive_link",
+        "https://drive.google.com/drive/folders/1Cd1iWZ9T-tPRi1Ey2IkT0CTSFg44tuqT?usp=drive_link",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
         {
@@ -1901,6 +1901,10 @@ const database = {
           url: "https://drive.google.com/file/d/1MDjbJy3xlJWengdZGi51KvisFllq9YSp/view?usp=drive_link",
           title: "Cài App Attack Shark L90",
         },
+        {
+          url: "https://drive.google.com/drive/folders/1Kg_zfiwtPiU9994aAcGUk335NAWK0vYt?usp=drive_link",
+          title: "Vệ Sinh Tai Nghe",
+        },
       ],
       faqs: [
         {
@@ -1938,6 +1942,10 @@ const database = {
         {
           q: "Chế độ âm thanh?",
           a: "Nhấn 2 lần liên tục để chuyển đổi giữa chế độ Âm nhạc và Game, Ở chế độ Game, âm lượng sẽ lớn hơn.",
+        },
+        {
+          url: "https://drive.google.com/drive/folders/1Kg_zfiwtPiU9994aAcGUk335NAWK0vYt?usp=drive_link",
+          title: "Vệ Sinh Tai Nghe",
         },
       ],
     },
