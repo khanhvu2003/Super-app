@@ -1902,7 +1902,7 @@ const database = {
           title: "Cài App Attack Shark L90",
         },
         {
-          url: "https://drive.google.com/drive/folders/1Kg_zfiwtPiU9994aAcGUk335NAWK0vYt?usp=drive_link",
+          url: "https://drive.google.com/file/d/1KgzmtkjlwFLO8rDKSSyiIAt7n6NiiKqN/view?usp=drive_link",
           title: "Vệ Sinh Tai Nghe",
         },
       ],
@@ -1929,7 +1929,12 @@ const database = {
         "https://shopee.vn/Tai-Nghe-Kh%C3%B4ng-D%C3%A2y-Ch%E1%BB%A5p-Tai-Bluetooth-Attack-Shark-L80-Super-Bass-%C3%82m-Thanh-V%C3%B2m-C%C3%B3-Mic-Ch%C6%A1i-Game-i.12208293.27407075172?sp_atk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e&xptdk=78dd0a4e-bc5a-4849-bc2a-5d216fb3fa0e",
       appPC: "",
       appWeb: "",
-      videos: [],
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1KgzmtkjlwFLO8rDKSSyiIAt7n6NiiKqN/view?usp=drive_link",
+          title: "Vệ Sinh Tai Nghe",
+        },
+      ],
       faqs: [
         {
           q: "Bật/Tắt nguồn tai nghe?",
@@ -1942,10 +1947,6 @@ const database = {
         {
           q: "Chế độ âm thanh?",
           a: "Nhấn 2 lần liên tục để chuyển đổi giữa chế độ Âm nhạc và Game, Ở chế độ Game, âm lượng sẽ lớn hơn.",
-        },
-        {
-          url: "https://drive.google.com/drive/folders/1Kg_zfiwtPiU9994aAcGUk335NAWK0vYt?usp=drive_link",
-          title: "Vệ Sinh Tai Nghe",
         },
       ],
     },
