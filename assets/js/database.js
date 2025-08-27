@@ -323,7 +323,7 @@ const database = {
       dealLink:
         "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-C%C6%A1-Gaming-Rapid-Trigger-Attack-Shark-X68-HE-Polling-Rate-8KHz-LED-RGB-M%E1%BA%A1ch-Xu%C3%B4i-i.12208293.24740001169?sp_atk=28f82768-517e-4c98-92df-18a11c8a7716&xptdk=28f82768-517e-4c98-92df-18a11c8a7716",
       appPC:
-        "https://drive.google.com/file/d/1TCwiwztBdxy8iHaLm4eC5vaYSNyVAuvt/view?usp=drive_link",
+        "https://drive.google.com/drive/folders/1zd_tw1WyjGgB97IgKXHrjjXlCh6d1K1W?usp=sharing",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
         {
@@ -522,7 +522,7 @@ const database = {
       dealLink:
         "https://shopee.vn/B%C3%A0n-Ph%C3%ADm-Kh%C3%B4ng-D%C3%A2y-Rapid-Trigger-Attack-Shark-X68PRO-HE-3-Mode-LED-RGB-Pin-5000mAh-8000Hz-App-Macro-i.12208293.28430209471?sp_atk=5dfc9002-4027-4b8f-b1f2-4fcb2f7a458c&xptdk=5dfc9002-4027-4b8f-b1f2-4fcb2f7a458c",
       appPC:
-        "https://drive.google.com/file/d/1TCwiwztBdxy8iHaLm4eC5vaYSNyVAuvt/view?usp=drive_link",
+        "https://drive.google.com/drive/folders/1IPa9vlq6IxK-_lFMbxH1J6j0A00UDwP2?usp=sharing",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
         {
@@ -751,10 +751,6 @@ const database = {
         "https://drive.google.com/drive/folders/1Cd1iWZ9T-tPRi1Ey2IkT0CTSFg44tuqT?usp=drive_link",
       appWeb: "https://iotdriver.qmk.top/",
       videos: [
-        {
-          url: "https://drive.google.com/file/d/1BKG9aOmuDr8IX5MEV2mFfBvgtl5M2aEi/view?usp=drive_link",
-          title: "Hướng dẫn tùy chỉnh màn hình",
-        },
         {
           url: "https://drive.google.com/file/d/1azp3kNol4tM-hgKcH26Nm6K9xAQHSH4b/view?usp=drive_link",
           title: "Hướng dẫn chỉnh thời gian trên màn hình",
