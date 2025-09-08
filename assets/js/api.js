@@ -12,7 +12,7 @@ async function askGeminiAi(userQuestion) {
   // Khi bạn chạy trên máy tính cá nhân (localhost) hoặc server riêng,
   // BẠN BẮT BUỘC PHẢI THAY THẾ BẰNG API KEY THẬT CỦA BẠN từ Google AI Studio.
   // Nếu không, chức năng này sẽ luôn báo lỗi.
-  const apiKey = "AIzaSyC6-809ZG8gU9sv0MkRM1Xz8CsiPZomTDA"; // <-- THAY THẾ BẰNG API KEY CỦA BẠN VÀO ĐÂY
+  const apiKey = "AIzaSyBrVt7fYEXWfHLxt5Qz1_0R165lOrfpfVk"; // <-- THAY THẾ BẰNG API KEY CỦA BẠN VÀO ĐÂY
 
   let allProductsContext = "";
   for (const category in database) {
