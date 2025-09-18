@@ -1557,6 +1557,55 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "Attack Shark V5 Ultra",
+      name: "Attack Shark V5 Ultra",
+      image:
+        "https://attackshark.com/cdn/shop/files/9_d7d964ac-80c4-40f6-b648-83a819565e39.jpg?v=1755517793&width=800",
+      previewVideo:
+        "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6v8h4-mejwqs18v20z66.16000081757672863.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Esports-Attack-Shark-V5MAX-Chip-PAW3950MAX-42000-DPI-Switch-Omron-3-Mode-App-Macro-i.457378832.42167742129",
+      appPC: "https://drive.google.com/drive/folders/1vgebvGISc-6D88UwnFQP-TS-gfctRGB4?usp=sharing",
+      appWeb: "https://controlhub.top/AttackShark/",
+      videos: [],
+      faqs: [
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark V5 Ultra",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+      ],
+    },
+    
+    {
+      id: "Attack Shark R11 Ultra",
+      name: "Attack Shark R11 Ultra",
+      image:
+        "https://attackshark.com/cdn/shop/files/1_26_0fe3cb5f-c8f0-490f-9562-fdf83a87b6ec.jpg?v=1757497240&width=800",
+      previewVideo:
+        "https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6v8gz-mefgu08omww1d5.16000081757403971.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Ziyou-Attack-Shark-R11-Ultra-S%E1%BB%A3i-Carbon-Si%C3%AAu-Nh%E1%BA%B9-C%E1%BA%A3m-Bi%E1%BA%BFn-PAW3950MAX-App-i.457378832.41817562346?sp_atk=848a4f13-906d-40e5-a851-a1231f20bd20&xptdk=848a4f13-906d-40e5-a851-a1231f20bd20",
+      appPC: "https://drive.google.com/drive/folders/1sScBtreeP7IO4B83Ud_q1_k2XMdpBY23?usp=drive_link",
+      appWeb: "https://controlhub.top/AttackShark/",
+      videos: [],
+      faqs: [
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark R11 Ultra",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn nút DPI trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+      ],
+    },
+
     {
       id: "ATTACK SHARK X1",
       name: "ATTACK SHARK X1",
@@ -1785,7 +1834,7 @@ const database = {
       faqs: [
         {
           q: "Làm thế nào để kết nối sản phẩm Attack Shark X8SE, PLUS, PRO",
-          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính.\n2. Lật chuột lên và nhấn giữ nút Mode RESET  ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ nút Mode RESET ở phía dưới chuột trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
         },
         {
           q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
@@ -1793,6 +1842,36 @@ const database = {
         },
       ],
     },
+
+    {
+      id: "Attack Shark X8 Ultra",
+      name: "Attack Shark X8 Ultra",
+      image: "https://attackshark.com/cdn/shop/files/3_8f5d2609-07ae-4126-b640-c92f4e67e7e8.jpg?v=1752571137&width=800",
+      previewVideo:
+        "https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/vn-11110105-6v8gt-mejkow2vwnwgbe.16000081757652594.mp4",
+      dealLink:
+        "https://shopee.vn/Chu%E1%BB%99t-Gaming-Kh%C3%B4ng-D%C3%A2y-Attack-Shark-X8-Ultra-Chip-PAW3950MAX-DPI-42.000-Dongle-8KHz-Switch-Omron-i.12208293.27041191993?sp_atk=17da25dc-a607-4287-bf17-c927c26ef98a&xptdk=17da25dc-a607-4287-bf17-c927c26ef98a",
+      appPC:
+        "https://drive.google.com/drive/folders/1JVZkfuajKFikUvbdGzh2ozZ4z68xgxQy?usp=drive_link",
+      appWeb: "https://controlhub.top/AttackShark/",
+      videos: [
+        {
+          url: "https://drive.google.com/file/d/1h5y1HCF3s1oCVcUmxMyKQ7vjvby6VqRd/view?usp=drive_link",
+          title: "Auto Click làm tương tự R1",
+        },
+      ],
+      faqs: [
+        {
+          q: "Làm thế nào để kết nối sản phẩm Attack Shark x8 Ultra",
+          a: "Để kết nối chế độ USB 2.4G, làm như sau:\n1. Gạt công tắc chuột sang chế độ USB 2.4G, Tháo USB 2.4G Ra khỏi máy tính \n2. Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Cắm USB 2.4G vào máy tính. Khi chuột hoạt động là đã kết nối thành công. \n \nĐể kết nối chế độ Bluetooth, làm như sau:\n1. Gạt công tắc chuột sang chế độ Bluetooth.\n2. Nhấn giữ Nhấn đồng thời Chuột trái / Con lăn / Chuột Phải trong 5 giây để vào chế độ ghép nối.\n3. Mở cài đặt Bluetooth trên máy tính hoặc thiết bị của bạn và tìm kiếm chuột để kết nối.",
+        },
+        {
+          q: "Chuột hỗ trợ kết nối với những thiết bị nào?",
+          a: "Với chuột không dây sẽ kết nối tất cả các thiết bị từ điện thoại, máy tính bảng, laptop, PC, TV Box, Smart TV,  ...\n Nhưng sẽ không tương thích với các thiết bị console như PS4, PS5, Xbox, và iphone ...",
+        },
+      ],
+    },
+    
     {
       id: "Attack shark X3 MAX",
       name: "Attack shark X3 MAX",
